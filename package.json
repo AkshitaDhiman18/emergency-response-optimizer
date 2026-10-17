@@ -1,0 +1,1 @@
+{ "name":"ai-emergency-response-route-optimizer", "version":"1.0.0", "description":"CodeStorm 2026 - dispatcher decision-support prototype (simulated data)", "scripts":{ "start":"node server.js", "test":"node --test test/engine.test.js" } }

@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Emergency Response &amp; Route Optimizer</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div><h1>AI Emergency Response &amp; Route Optimizer</h1><small>Every Second Matters. Every Decision Saves Time. &middot; Team dhimanakshita26 &middot; MMEC, MM(DU)</small></div>
+<div class="hr"><span class="sim">SIMULATED DATA &middot; Decision support only &middot; Dispatcher decides</span><button id="reset" class="danger">Restore Demo Data</button></div></header>
+<nav id="tabs"></nav><div id="toast" role="alert"></div>
+<main>
+<section id="t-cmd"><div class="stats" id="stats"></div><div class="grid3"><div class="card" id="queue"></div><div class="card nopad"><div id="map"></div><div class="legend">Click a road to block / unblock it &middot; <b style="color:#dc2626">red dashed</b> = blocked &middot; <b style="color:#2563eb">blue</b> = route to scene &middot; <b style="color:#16a34a">green</b> = route to hospital</div></div><div class="card" id="detail"></div></div></section>
+<section id="t-rep" hidden><div class="card narrow"><h2>Report an emergency</h2><div id="repForm"></div></div></section>
+<section id="t-sim" hidden><div class="grid2"><div class="card" id="simCtl"></div><div class="card nopad"><div id="simMap"></div></div></div><div class="card" id="simOut"></div></section>
+<section id="t-res" hidden><div class="grid2"><div class="card" id="resp"></div><div class="card" id="hosp"></div></div><div class="card" id="roads"></div></section>
+<section id="t-ana" hidden><div class="card" id="ana"></div><div class="card" id="aud"></div></section>
+<section id="t-demo" hidden><div class="card narrow" id="demo"></div></section>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js"></script></body></html>
